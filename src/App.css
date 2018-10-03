@@ -1,0 +1,49 @@
+
+.NewItemDiv {
+  display: block;
+  width: 100%;
+}
+.NewItem {
+  display: inline;
+  border-color: black;
+  border-width: 1px;
+  font-size: 25px;
+}
+.Add-button {
+  display: inline;
+  background: #14ac44;
+  padding:5px;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  font-size: 25px;
+}
+.ListItem {
+  display: block;
+  height:40px;
+  width:100%;
+  border-bottom: 2px solid black;
+}
+.ListItem .text{
+  height:40px;
+  color: black;
+}
+.dltBtn, .doneBtn {
+  height:40px;
+  width:40px;
+  margin: 0;
+  border: none;
+  float: right;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.doneBtn{
+  background: #146cac;
+}
+.dltBtn{
+  background: #ff6b6b;
+}
+.completed{
+  background: green;
+}
